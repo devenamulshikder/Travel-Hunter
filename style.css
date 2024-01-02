@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full-website{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+/* banner section start here */
+.banner-section{
+    background: url("./felix-rostig-UmV2wr-Vbq8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: 30px; */
+    height: 608px;
+    /* padding: 10px; */
+}
+.banner-section h2{
+    padding-top: 80px;
+    padding-left: 90px;
+    font-size: 50px;
+}
+.banner-containt{
+    padding-left: 90px;
+    font-size:15px;
+}
+.flex{
+    display: flex;
+    gap: 25px;
+    
+}
+.i{
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+h4{
+    font-size: 15px;
+    margin-top: 18px;
+}
+.down{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* banner section end here */
+
+/* learn more section start here */
+
+.book{
+    background-color: rgb(29, 38, 50);
+    padding: 100px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* height: 608px; */
+    /* width: 1191px; */
+
+}
+.user{
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+}
+.dag{
+    margin-top: -60px ;
+    /* margin: 100px; */
+}
+.earn{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h5{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.p{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top:10px;
+}
+
+.product{
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+    font-size: 17px;
+    margin-left: 65px;
+    color: white;
+
+}
+ .model{
+    text-align: left;
+    margin-bottom: 10px;
+
+ }
+span{
+    background-color: rgba(255, 20, 157, 0.513);
+    padding-right: 40px;
+}
+
+/* learn more section end here */
