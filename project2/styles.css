@@ -1,72 +1,157 @@
-*{
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 /* header section start here */
-.header{
-    padding-top: 20px;
+.header {
+  padding-top: 20px;
 }
-.first-primary{
-    color: #000000;
+.first-primary {
+  color: #000000;
 }
-nav{
-    display: flex;
+nav {
+  display: flex;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav ul {
+  display: flex;
+  align-items: center;
 }
-nav li, i{
-    list-style: none;
-    margin-left: 20px;
-    
+nav li,
+i {
+  list-style: none;
+  margin-left: 20px;
 }
-nav a{
-    text-decoration: none;
-    color: #757575;
+nav a {
+  text-decoration: none;
+  color: #757575;
 }
-nav i{
-    color: rgb(255, 177, 177);
+nav i {
+  color: rgb(255, 177, 177);
 }
 
 /* header section end here */
 
 /* main section start here */
-.main{
-    max-width: 1140;
-    margin: auto;
+
+/* first section start here */
+.main {
+  max-width: 1140;
+  margin: auto;
 }
-.background-image{
-    background-image: url('./picture/slide.jpg');
-    background-position: cover;
-    background-repeat: no-repeat;
+.background-image {
+  background-image: url("./picture/slide.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
 }
-.first-div{
+.first-div {
+  text-align: center;
+  padding: 200px 200px;
+}
+.first-p {
+  color: antiquewhite;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.hr1 {
+  max-width: 350px;
+}
+.clean-simple {
+  font-size: 80px;
+  color: antiquewhite;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.dot {
+  color: orangered;
+}
+.btn-purchase {
+  background-color: #d0c8c8;
+  padding: 8px;
+  opacity: 60%;
+}
+/* first section end here */
+
+/* second section start here */
+.second-div{
+    display: flex;
+    justify-content: space-around;
+}
+.second-info{
     text-align: center;
-    padding: 200px 200px;
+    /* background-position: bottom right, top left; */
+    margin: auto;
+    padding: 20px;
 }
-.first-p{
-    color: antiquewhite;
-    font-size: 30px;
-    margin-bottom: 50px;
+.hr2{
+    max-width: 50px;
 }
-.hr1{
-    max-width: 350px;
-}
-.clean-simple{
-    font-size: 80px;
-    color: antiquewhite;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.dot{
+.second-div i {
+    margin-bottom: 30px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: orangered;
 }
-.btn-purchase{
-    background-color: #d0c8c8;
-    padding: 8px;
-    opacity: 60%;
+.second-div h3{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    padding-bottom: 10px ;
+    color: #757575;
+}
+.second-div p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    padding-top: 10px ;
+    color: #757575; 
+    padding-bottom: 40px;
+}
+/* second section end here */
+
+/* third section start here */
+
+.third-header, .child-div{
+    background-color:rgb(249, 234, 246);
+    text-align: center;
+    border-radius: 0%;
+}
+.third{
+    display: flex;
+    gap: 50px;
+}
+.child-div{
+    padding-bottom:  30px;
+    border-radius: 5px;
+    background: #fff;
+}
+.third img {
+    max-width: 350px;
+}
+.Portfolio-btn{
+    padding: 10px;
+    margin: 20px;
+    box-shadow: none;
 }
 
-/* main section start here */
+/* third section end here */
+
+/* fourth section start here */
+
+.fourth-section{
+    background: url('./picture/parallax.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fourth-div{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* fourth section end here */
+
+/* main section end here */
