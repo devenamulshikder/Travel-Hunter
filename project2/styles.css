@@ -121,6 +121,18 @@ nav i {
     display: flex;
     gap: 50px;
 }
+.third h2, p {
+  color: #757575;
+}
+.resent{
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: #757575;
+}
+.best{
+  padding: 20px 10px;
+  color: #757575;
+}
 .child-div{
     padding-bottom:  30px;
     border-radius: 5px;
