@@ -150,8 +150,24 @@ nav i {
     align-items: center;
     text-align: center;
 }
-
-
+.smiley{
+    font-size: 30px;
+    color: #d0c8c8;
+}
+.fourth-div i {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.fourth-div h1 {
+    color: #3f0f0f;
+    padding: 10px;
+}
+.fourth-div p{
+    color: #d8c8c8;
+    font-size: 20px;
+    padding-top: 10px;
+}
 /* fourth section end here */
 
 /* main section end here */
